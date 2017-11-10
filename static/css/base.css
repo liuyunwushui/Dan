@@ -1,0 +1,23 @@
+body, h1, h2, h3, h4, h5, h6, hr, p,div, blockquote,dl, dt, dd, ul, ol, li,pre,button, input, textarea,th, td,header,nav,footer,aside,a,b,i,span,em{ margin: 0; padding: 0;}
+body{font:14px/1.4 'Microsoft Yahei',Tahoma,Helvetica,Arial,Sans-serif;color:#555;margin:0 auto;}
+ul,ol{list-style: none}
+a{color:#666;text-decoration: none; outline: none;}
+a:hover{color:#06f}
+img{max-width: 100%;border:none;vertical-align: middle;}
+input,select,button{ outline: none}
+a,span,i,b,em{display: inline-block; font-style: normal;-webkit-tap-highlight-color:transparent;}
+
+/*public*/
+.left{float: left}
+.right{float: right;}
+.t-c{text-align: center;}
+.t-l{text-align: left;}
+.t-r{text-align: right}
+.dp-none{display: none;}
+.dp-block{display: block;}
+.clearfix:after{content:"";display: block; clear: both;}
+.body-auto{max-width:1080px; margin: 0 auto}
+.fw-n{font-weight: normal;}
+.fw-b{font-weight:bold;}
+
+[v-cloak]{display: none}
