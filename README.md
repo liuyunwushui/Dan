@@ -2,10 +2,13 @@
 接发任务平台
 
 #框架配置信息
-- - vue-cli
-- - axios
-- - sass
-- - postcss
+、、、
+- vue-cli
+- axios
+- sass
+- postcss
+、、、
+
 ###postcss
 前缀自动补全  autoprefixer
 
@@ -16,7 +19,9 @@ npm start
 #目录结构
 
 |-- build                                   // 项目构建(webpack)相关代码
+
 |   |-- build.js                            // 生产环境构建代码
+
 |   |-- check-version.js                    // 检查node、npm等版本
 |   |-- dev-client.js                       // 热重载相关
 |   |-- dev-server.js                       // 构建本地服务器
