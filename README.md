@@ -19,9 +19,7 @@ npm start
 #目录结构
 
 |-- build                                   // 项目构建(webpack)相关代码
-
 |   |-- build.js                            // 生产环境构建代码
-
 |   |-- check-version.js                    // 检查node、npm等版本
 |   |-- dev-client.js                       // 热重载相关
 |   |-- dev-server.js                       // 构建本地服务器
@@ -41,7 +39,6 @@ npm start
 |   |   |   |-- index.html                  // 页面入口
 |   |   |   |-- index.js                    // 程序入口文件，加载各种公共组件
 |   |   |-- zeng                            // 待定 （多页面）
-
 |-- static                                  // 静态文件，比如一些图片，json数据等
 |-- .babelrc                                // ES6语法编译配置
 |-- .editorconfig                           // 定义代码格式
