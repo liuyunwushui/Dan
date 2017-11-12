@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Login from '@/components/login'
 import Reg from '@/components/reg'
 import Home from '@/pages/index/home'
+import TaskHall from '@/pages/index/task-hall'
 
 Vue.use(Router)
 
@@ -25,6 +26,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home
-    }
+    },
+    {
+      path: '/task',
+      name: 'taskHall',
+      component: TaskHall
+    },
   ]
 })

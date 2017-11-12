@@ -33,16 +33,16 @@
               </div>
             </li>
             <li class="link-shortcut t-c mt-30">
-              <router-link to="/">发布试用任务</router-link>
-              <router-link to="/">发布人气任务</router-link>
+              <router-link to="/task">发布试用任务</router-link>
+              <router-link to="/task">发布人气任务</router-link>
             </li>
           </ul>
           <ul class="shortcut-list t-c">
             <li>
-              <router-link to="/">发布试用任务</router-link>
+              <router-link to="/task">发布试用任务</router-link>
             </li>
             <li>
-              <router-link to="/">发布流量任务</router-link>
+              <router-link to="/task">发布流量任务</router-link>
             </li>
             <li>
               <router-link to="/">用户登录</router-link>
